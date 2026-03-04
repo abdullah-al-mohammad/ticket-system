@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login page not loading",
+    "description": "Users are unable to access the login page after the latest update.",
+    "customer": "ABC Corporation",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T09:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment gateway timeout error",
+    "description": "Payment process fails due to timeout during checkout.",
+    "customer": "Global Mart",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-01T11:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Profile update not saving",
+    "description": "Changes made in the user profile are not being saved.",
+    "customer": "John Doe",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02T08:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Dashboard data mismatch",
+    "description": "Sales data on dashboard does not match the report export.",
+    "customer": "Tech Solutions Ltd",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-02T10:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Email notifications not sent",
+    "description": "System is not sending email notifications for new orders.",
+    "customer": "Smart Shop",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-03-02T13:10:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Search functionality slow",
+    "description": "Product search takes more than 10 seconds to load results.",
+    "customer": "Retail Hub",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03T07:50:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Broken image links",
+    "description": "Product images are not displaying correctly on category page.",
+    "customer": "Fashion Point",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03T09:05:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Admin panel access denied",
+    "description": "Admin users are receiving access denied errors.",
+    "customer": "Enterprise Pro",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-03T12:40:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Incorrect invoice calculation",
+    "description": "Tax calculation is incorrect on generated invoices.",
+    "customer": "City Traders",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03T15:25:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Mobile layout broken",
+    "description": "UI layout breaks on smaller mobile devices.",
+    "customer": "NextGen Apps",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T06:30:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Password reset email delay",
+    "description": "Password reset emails are delayed by several minutes.",
+    "customer": "Secure Bank",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-03-04T08:10:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Data export CSV corrupted",
+    "description": "Exported CSV files cannot be opened properly.",
+    "customer": "Data Insights",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-03-04T09:20:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Two-factor authentication issue",
+    "description": "Users are not receiving OTP codes for 2FA login.",
+    "customer": "SafeLogin Inc",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T10:05:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Session timeout too short",
+    "description": "User sessions expire after 5 minutes of inactivity.",
+    "customer": "Edu Platform",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-04T11:45:00Z"
+  },
+  {
+    "id": 15,
+    "title": "API response delay",
+    "description": "Third-party API integration responding slowly.",
+    "customer": "Logistics Pro",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T13:00:00Z"
+  }
+]

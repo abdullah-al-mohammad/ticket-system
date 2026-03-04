@@ -1,0 +1,32 @@
+.resolved-bg {
+  position: relative;
+  background:
+    url('../../../assets/vector1.png') left center no-repeat,
+    linear-gradient(#54cf68, #00827a);
+  background-size: 300px, cover;
+
+  height: 250px;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bg-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 300px;
+  height: 700px;
+  background: url('../../../assets/vector1.png') no-repeat center;
+  background-size: contain;
+  transform: translateY(-50%) scaleX(-1);
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
