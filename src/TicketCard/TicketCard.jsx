@@ -1,18 +1,6 @@
 import { FaCalendarAlt, FaCheckCircle, FaSpinner } from 'react-icons/fa';
 
 const TicketCard = ({ ticket, handleAddTask }) => {
-  // console.log(ticket);
-
-  //   {
-  //   "id": 13,
-  //   "title": "Two-factor authentication issue",
-  //   "description": "Users are not receiving OTP codes for 2FA login.",
-  //   "customer": "SafeLogin Inc",
-  //   "priority": "High",
-  //   "status": "In Progress",
-  //   "createdAt": "2026-03-04T10:05:00Z"
-  // }
-
   const statusClass =
     ticket.status === 'In Progress'
       ? 'bg-[#F8F3B9] text-[#9C7700] '
