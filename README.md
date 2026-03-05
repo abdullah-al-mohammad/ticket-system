@@ -1,16 +1,21 @@
-# React + Vite
+What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+উত্তরঃ JSX JavaScript XML হলো JavaScript-এর একটি syntax extension, যা দেখতে HTML-এর মতো। এটি মূলত React-এ ব্যবহার করা হয় UI তৈরির জন্য। React-এ JSX ব্যবহার করে আমরা একই ফাইলে UI এবং JavaScript logic লিখতে পারি।
 
-Currently, two official plugins are available:
+What is the difference between State and Props?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+উত্তরঃ Props হলো এক component থেকে অন্য component-এ ডেটা পাঠানোর উপায়।
+এটি সাধারণত parent component → child component এ যায়। State হলো component-এর নিজের ডেটা যেখানে data store করে রাখা হয় এবং সেখান থেকে data নিয়ে বিভিন্ন স্থানে পরিবর্তন করা হয়।
 
-## React Compiler
+What is the useState hook, and how does it work?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+উত্তরঃ useState হলো React-এর একটি Hook, যা function component-এ state ব্যবহারের সুযোগ দেয়।
+এর মাধ্যমে component-এর ভিতরে ডেটা রাখা ও পরিবর্তন করা যায়।
 
-## Expanding the ESLint configuration
+How can you share state between components in React?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+উত্তরঃ যখন দুইটা child component একই data ব্যবহার করবে, তখন সেই state তাদের common parent component-এ রাখি। Child যদি parent-এর state পরিবর্তন করতে চায়, তাহলে parent একটি function props হিসেবে পাঠায়। যখন অনেক nested component-এ state পাঠাতে হয়, তখন Context API ব্যবহার করা হয়, তখন বার বার props drilling করে data পাঠানো সমস্যা হয়ে যায়।
+
+How is event handling done in React?
+
+উত্তরঃ React-এ event handling করা হয় camelCase syntax ব্যবহার করে এবং event-এর মধ্যে function pass করে।
