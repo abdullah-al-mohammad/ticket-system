@@ -1,6 +1,6 @@
 import './progress.css';
 
-const Progress = () => {
+const Progress = ({ ticketCards }) => {
   return (
     <div className="progress-bg flex justify-center items-center rounded">
       <div className="progress-bg">
@@ -8,7 +8,9 @@ const Progress = () => {
 
         <div className="content">
           <h1 className="font-semibold text-2xl">In-Progress</h1>
-          <h3 className="font-semibold text-4xl">0</h3>
+          <h3 className="font-semibold text-4xl">
+            {ticketCards.length > 0 ? ticketCards.length : 0}
+          </h3>
         </div>
       </div>
     </div>
