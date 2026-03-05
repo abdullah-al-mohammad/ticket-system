@@ -1,5 +1,5 @@
-const TicketCard = ({ ticket, handleCompleteTask }) => {
-  console.log(ticket);
+const TicketCard = ({ ticket, handleAddTask }) => {
+  // console.log(ticket);
 
   //   {
   //   "id": 13,
@@ -12,7 +12,7 @@ const TicketCard = ({ ticket, handleCompleteTask }) => {
   // }
 
   return (
-    <div onClick={handleCompleteTask}>
+    <div onClick={() => handleAddTask(ticket)}>
       <div className="card bg-base-100 shadow-sm">
         <div className="card-body">
           <div className="flex justify-between">
