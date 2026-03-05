@@ -19,10 +19,12 @@ function App() {
   const [resolvedCards, setResolvedCards] = useState([]);
   const notify = () => toast(`${ticketCards.length + 1} task in progress!`);
   const notifyResolved = () => toast(`${resolvedCards.length + 1} task resolved!`);
+
   const handleAddTask = p => {
-    // console.log('complete data', p);
-    setTicketCards([...ticketCards, p]);
-    notify();
+    if (!ticketCards.some(ticket => ticket.id === p.id)) {
+      setTicketCards(prev => [...prev, p]);
+      notify();
+    }
   };
   const handleCompleteTask = p => {
     setResolvedCards([...resolvedCards, p]);

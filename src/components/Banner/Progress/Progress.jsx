@@ -2,7 +2,7 @@ import vector from '../../../assets/vector1.png';
 
 const Progress = ({ ticketCards }) => {
   return (
-    <div className="relative w-full max-w-[700px] h-[250px] mx-auto flex items-center justify-center overflow-hidden bg-[#422ad5]">
+    <div className="relative w-full max-w-[700px] h-[250px] mx-auto mb-8 md:mb-0 flex items-center justify-center overflow-hidden bg-[#422ad5] rounded">
       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[200px] md:w-[300px]">
         <img src={vector} alt="" className="w-full" />
       </div>

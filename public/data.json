@@ -41,7 +41,7 @@
     "description": "System is not sending email notifications for new orders.",
     "customer": "Smart Shop",
     "priority": "High",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2026-03-02T13:10:00Z"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Password reset emails are delayed by several minutes.",
     "customer": "Secure Bank",
     "priority": "High",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2026-03-04T08:10:00Z"
   },
   {

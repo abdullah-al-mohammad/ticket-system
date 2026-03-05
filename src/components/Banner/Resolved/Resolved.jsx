@@ -2,7 +2,7 @@ import vector from '../../../assets/vector1.png';
 
 const Resolved = ({ resolvedCards }) => {
   return (
-    <div className="relative w-full max-w-[700px] h-[250px] mx-auto flex items-center justify-center overflow-hidden bg-gradient-to-r from-[#54cf68] to-[#00827a]">
+    <div className="relative w-full max-w-[700px] h-[250px] mx-auto flex items-center justify-center overflow-hidden bg-gradient-to-r from-[#54cf68] to-[#00827a] rounded">
       <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[200px] sm:w-[200px] md:w-[300px]">
         <img src={vector} alt="" className="w-full" />
       </div>
