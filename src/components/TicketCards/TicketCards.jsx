@@ -16,7 +16,7 @@ const TicketCards = ({
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 col-span-3">
           {data.map(ticket => (
-            <TicketCard ticket={ticket} handleAddTask={handleAddTask}></TicketCard>
+            <TicketCard key={ticket.id} ticket={ticket} handleAddTask={handleAddTask}></TicketCard>
           ))}
         </div>
         <div className="col-span-1">
