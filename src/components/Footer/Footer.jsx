@@ -9,9 +9,9 @@ const Footer = () => {
         <nav>
           <h6 className="footer-title text-white">CS — Ticket System</h6>
           <p className="w-80">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
-            has been the industry's standard dummy text ever since the 1500s, when an unknown
-            printer took a galley of type and scrambled it to make a type specimen book.
+            CS — Ticket System helps businesses manage and track customer support efficiently.
+            Resolve issues faster, improve team collaboration, and provide better service to your
+            clients.
           </p>
         </nav>
         <nav>
