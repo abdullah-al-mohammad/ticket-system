@@ -1,5 +1,5 @@
 import './resolved.css';
-const Resolved = () => {
+const Resolved = ({ resolvedCards }) => {
   return (
     <div className="resolved-bg flex justify-center items-center rounded">
       <div className="resolved-bg">
@@ -7,7 +7,9 @@ const Resolved = () => {
 
         <div className="content">
           <h1 className="font-semibold text-2xl">Resolved</h1>
-          <h3 className="font-semibold text-4xl">0</h3>
+          <h3 className="font-semibold text-4xl">
+            {resolvedCards.length ? resolvedCards.length : 0}
+          </h3>
         </div>
       </div>
     </div>
