@@ -35,7 +35,7 @@ function App() {
     <div>
       <div className="max-w-[1200px] mx-auto">
         <Navbar></Navbar>
-        <div className="md:flex justify-center items-center gap-5 mt-10">
+        <div className="md:flex justify-center items-center gap-5 mt-10 ">
           <Progress ticketCards={ticketCards}></Progress>
           <Resolved resolvedCards={resolvedCards}></Resolved>
         </div>

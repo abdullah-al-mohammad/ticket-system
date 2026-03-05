@@ -1,7 +1,7 @@
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar bg-base-100 shadow-sm px-20 py-5">
+      <div className="navbar bg-base-100 shadow-sm px-10 py-5">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -42,6 +42,7 @@ export const Navbar = () => {
               <li>
                 <a>Contact</a>
               </li>
+              <button className="btn text-white bg-[#422AD5]">+ New Ticket</button>
             </ul>
           </div>
           <a className="btn btn-ghost text-xl">CS-Ticket System</a>
@@ -67,10 +68,8 @@ export const Navbar = () => {
               <a>Contact</a>
             </li>
           </ul>
+          <button className="btn text-white bg-[#422AD5]">+ New Ticket</button>
         </div>
-        {/* <div className="navbar-end"> */}
-        <button className="btn text-white bg-[#422AD5]">+ New Ticket</button>
-        {/* </div> */}
       </div>
     </>
   );
