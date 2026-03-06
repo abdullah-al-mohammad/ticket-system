@@ -40,7 +40,7 @@ const TicketCards = ({
                   </button>
                 </div>
               ))}
-          <h1 className="text-2xl font-semibold mb-2">Resolved Task</h1>
+          <h1 className="text-2xl font-semibold mb-2 mt-10">Resolved Task</h1>
           {resolvedCards.length === 0 ? (
             <p>No resolved tasks yet.</p>
           ) : (
