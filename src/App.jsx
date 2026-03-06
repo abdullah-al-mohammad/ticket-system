@@ -21,10 +21,8 @@ function App() {
   const notifyResolved = () => toast(`${resolvedCards.length + 1} task resolved!`);
 
   const handleAddTask = p => {
-    if (!ticketCards.some(ticket => ticket.id === p.id)) {
-      setTicketCards(prev => [...prev, p]);
-      notify();
-    }
+    setTicketCards(prev => [...prev, p]);
+    notify();
   };
   const handleCompleteTask = p => {
     setResolvedCards([...resolvedCards, p]);
