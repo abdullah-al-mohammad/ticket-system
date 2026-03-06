@@ -15,9 +15,15 @@ const TicketCards = ({
       <h1 className="font-semibold text-2xl mb-5">Customer Tickets</h1>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 col-span-3">
-          {data.map(ticket => (
-            <TicketCard key={ticket.id} ticket={ticket} handleAddTask={handleAddTask}></TicketCard>
-          ))}
+          {data
+            .filter(ticket => !ticketCards.some(t => t.id === ticket.id))
+            .map(ticket => (
+              <TicketCard
+                key={ticket.id}
+                ticket={ticket}
+                handleAddTask={handleAddTask}
+              ></TicketCard>
+            ))}
         </div>
         <div className="col-span-1">
           <h1 className="text-2xl font-semibold mb-2">Task Status</h1>
